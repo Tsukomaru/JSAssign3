@@ -1,0 +1,94 @@
+/* Author: Joseph Sabio
+   Date: April 28, 2025
+*/
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    color: #444;
+ }
+
+img {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 800px; /* Ensures the image does not exceed a certain width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 12px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+/* Navigation Styling */
+nav {
+    background-color: #222; /* Dark background for the navigation bar */
+    padding: 15px 0; /* 15px padding on top and bottom, 0px on left and right */
+    border-radius: 8px; /* Rounded corners for the navigation bar */
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* to match the body text */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00; /*Changing color on hover*/
+}
+section {
+    margin-bottom: 60px;
+}
+figure {
+    text-align: center;
+    margin: 30px auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #bbb;
+    margin-top: 8px;
+}
+
+a,
+a:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
